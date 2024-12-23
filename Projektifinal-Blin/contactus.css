@@ -1,0 +1,85 @@
+
+.main{
+    width: 40%;
+    height: 250px;
+    background-color: lightblue;
+    padding-top: 20px;
+    border-radius: 30px;
+    margin: 100px auto;
+    text-align: center;
+   
+}
+.all{
+    width: 80%;
+    height: 1000px;
+    background-color: rgba(24, 123, 184, 0.629);
+    margin: auto;
+    padding: auto;
+}
+.navbar{
+    width: 100%;
+    height: 16,5%;
+}
+.web{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 2px 4px 4px rgb(5, 18, 42);
+    box-shadow: inset 0px 0px 30px rgb(86, 55, 154);
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-shadow:  2px 4px 4px blue;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+li{
+    padding: 0px 15px 0px 0px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.form{
+    width: 55%;
+    display: block;
+    margin: 20px auto;
+}
+.inputi{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+#butoni{
+    width: 40%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+#butoni:hover{
+    background-color: white;
+    border: 3px solid black;
+    color: green;
+}

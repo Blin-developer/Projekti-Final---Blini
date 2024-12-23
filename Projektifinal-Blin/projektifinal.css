@@ -1,0 +1,132 @@
+.all{
+    width: 80%;
+    height: 1000px;
+    background-color: rgba(24, 123, 184, 0.629);
+    margin: auto;
+    padding: auto;
+}
+.navbar{
+    width: 100%;
+    height: 16,5%;
+}
+.web{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 2px 4px 4px rgb(5, 18, 42);
+    box-shadow: inset 0px 0px 30px rgb(86, 55, 154);
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-shadow:  2px 4px 4px blue;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+li{
+    padding: 0px 15px 0px 0px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+.a1{
+    width: 100%;
+    height: 100%;
+}
+
+.underlined{
+    color: black;
+    text-decoration: underline;
+}
+.underlined:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.aside1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(171, 212, 237);
+    display: flex;
+    flex-direction: column;
+}
+.adidas1{
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+    font-family: sans-serif;
+}
+.adidas2{
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+}
+.main{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+.mainimg{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border: 2px double black;
+}
+.maintext{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.aside2{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: lightblue;
+}
+.img2{
+    width: 500px;
+    height: 510px;
+    border: 2px solid black;
+}
+
+
